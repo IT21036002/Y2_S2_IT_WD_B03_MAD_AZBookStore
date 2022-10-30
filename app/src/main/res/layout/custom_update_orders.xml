@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_box"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_dialog_box"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/updateimage"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pagesample"
+                android:layout_gravity="center"
+                android:layout_margin="5dp" />
+            <Button
+                android:id="@+id/updatebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Update"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@color/blue"
+                app:cornerRadius="10dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingVertical="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/updateId"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/updateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harry potter"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/updateprice23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price : "
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+
+                    />
+
+                <TextView
+                android:id="@+id/updateprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2500 lkr"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/updateUqtyds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Quantity : "
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:paddingTop="2dp"
+                    android:textSize="15dp"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:id="@+id/updateUqty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:paddingTop="2dp"
+                    android:textSize="15dp"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="bottom">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/input_bg_payments"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
